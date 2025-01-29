@@ -16,7 +16,7 @@ operation Hello {
   input: Person,
   output: Greeting
 }
-
+g
 structure Person {
   @httpLabel
   @required
