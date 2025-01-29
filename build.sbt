@@ -1,10 +1,9 @@
 import smithy4s.codegen.Smithy4sCodegenPlugin
 
-ThisBuild / scalaVersion := "3.6.3"
 val scala3Version = "3.6.3"
 
 lazy val root = project
-  .in(file("."))
+  .in(file("api"))
   .enablePlugins(Smithy4sCodegenPlugin)
   .settings(
     name := "experiments-scala",
